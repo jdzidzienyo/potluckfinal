@@ -1,0 +1,152 @@
+body{
+	background-image: url('assets/img/finally_damn.png');
+	background-position: 50% 73%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Lato";
+}
+
+.btn{
+	display: inline;
+	margin-top: 50px;
+	margin-right: 20px;
+	background-color: #5d814d;
+	border-color: #5d814d;
+	width: 120px;
+	height: 30px;
+	font-weight: 300;
+	font-size: 16px;
+	border-radius: 7px;
+	padding-bottom: 1px;
+	padding-top: 0px;
+}
+#maincontent{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+#contents1 h1, #contents1 p {
+	display: inline;
+}
+#contents{
+	text-align: center;
+}
+#contents1{
+	text-align: left;
+}
+#contents1{
+	margin-left: 20px;
+}
+#contents2{
+	text-align: center;
+	padding-top: 10px;
+}
+#contents3{
+	text-align: left;
+	padding-left: 60px;
+	padding-top: 2px;
+}
+#communal{
+	text-align: left;
+	padding-left: 30px;
+}
+#pot{
+	margin-left: 5px;
+}
+
+p {
+	font-size: 20px;
+	color: black;
+	font-weight: 10px;
+}
+h1 {
+	font-family:lucida grande;
+	font-weight:100;
+	font-size: 5em;
+	color: #5d814d;
+	text-shadow: 1px 2px 2px gray;
+}
+.h2,h2 {
+	font-family:lucida grande;
+	font-weight:200;
+	color: #5d814d;
+	letter-spacing: 2px;
+	font-size: 35px;
+}
+h3 {
+	font-family:lucida grande;
+	font-weight:100;
+	color: #5d814d;
+}
+h4 {
+	font-size: 23px;
+	font-family:lucida grande;
+	font-weight:100;
+	color: #5d814d;
+}
+@media only screen and (max-width: 991px){
+body {
+	background-attachment: fixed;
+}
+	#contents2{
+		text-align: center;
+		margin-top: -30px;
+	}
+	#contents3{
+		text-align: left;
+		padding-right: 10px;
+	}
+	#but1{
+		margin-top: 20px;
+	}
+	#but2{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 767px) { 
+	.containers {
+		background: rgba(255,255,255,.6);
+	}
+	#contents1{
+		padding-top: 50px;
+		text-align: center;
+	}
+	#contents2{
+		text-align: center;
+		margin-top: 50px;
+		padding-left: 20px;
+	}
+	#contents3{
+		text-align: center;
+		padding-right: 10px;
+	}
+ }
+
+
+@media only screen and (max-width: 576px) {
+	.containers {
+		background: rgba(255,255,255,.6);
+	}
+	.btn{
+		margin-right: 0px;
+	}
+	#contents1{
+		padding-top: 50px;
+		text-align: center;
+	}
+	#contents1 h1{
+		text-align: left;
+	}
+	#contents2{
+		text-align: center;
+		padding-left: 2px;
+	}
+	#contents3{
+		text-align: center;
+		padding-right: 30px;
+	}
+	#communal{
+		text-align: center;
+	}
+}
